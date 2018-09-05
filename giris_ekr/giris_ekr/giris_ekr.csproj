@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4F1E66A-14BA-4921-930C-CC1EFA01EF45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>giris_ekr</RootNamespace>
+    <AssemblyName>giris_ekr</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Veritabanı1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Veritabanı1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Veritabanı1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Veritabanı1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Veritabanı1DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Veritabanı1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_1234DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_1234DataSet8.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\ED00010_.WMF" />
+    <None Include="Resources\ED00172_.WMF" />
+    <None Include="Resources\HH00546_.WMF" />
+    <None Include="Resources\J0099171.WMF" />
+    <None Include="Resources\J0099178.WMF" />
+    <None Include="Resources\J0195320.WMF" />
+    <None Include="Resources\PE00014_.WMF" />
+    <None Include="Veritabanı1DataSet.xsc">
+      <DependentUpon>Veritabanı1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Veritabanı1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Veritabanı1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Veritabanı1DataSet.xss">
+      <DependentUpon>Veritabanı1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Veritabanı1DataSet1.xsc">
+      <DependentUpon>Veritabanı1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Veritabanı1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Veritabanı1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Veritabanı1DataSet1.xss">
+      <DependentUpon>Veritabanı1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Veritabanı1DataSet2.xsc">
+      <DependentUpon>Veritabanı1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Veritabanı1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Veritabanı1DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Veritabanı1DataSet2.xss">
+      <DependentUpon>Veritabanı1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet.xsc">
+      <DependentUpon>_1234DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet.xss">
+      <DependentUpon>_1234DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet1.xsc">
+      <DependentUpon>_1234DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet1.xss">
+      <DependentUpon>_1234DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet2.xsc">
+      <DependentUpon>_1234DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet2.xss">
+      <DependentUpon>_1234DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet3.xsc">
+      <DependentUpon>_1234DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet3.xss">
+      <DependentUpon>_1234DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet4.xsc">
+      <DependentUpon>_1234DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet4.xss">
+      <DependentUpon>_1234DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet5.xsc">
+      <DependentUpon>_1234DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet5.xss">
+      <DependentUpon>_1234DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet6.xsc">
+      <DependentUpon>_1234DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet6.xss">
+      <DependentUpon>_1234DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet7.xsc">
+      <DependentUpon>_1234DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet7.xss">
+      <DependentUpon>_1234DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet8.xsc">
+      <DependentUpon>_1234DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="_1234DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_1234DataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_1234DataSet8.xss">
+      <DependentUpon>_1234DataSet8.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J0143750.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WB01741L.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WB02055_.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kütüph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J0099171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J0099178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1234.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Veritabanı1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

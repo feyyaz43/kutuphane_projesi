@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_1234DataSet3" targetNamespace="http://tempuri.org/_1234DataSet3.xsd" xmlns:mstns="http://tempuri.org/_1234DataSet3.xsd" xmlns="http://tempuri.org/_1234DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="_1234ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="_1234ConnectionString (Settings)" PropertyReference="ApplicationSettings.giris_ekr.Properties.Settings.GlobalReference.Default._1234ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="İlişkiTableAdapter" GeneratorDataComponentClassName="İlişkiTableAdapter" Name="İlişki" UserDataComponentName="İlişkiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="_1234ConnectionString (Settings)" DbObjectName="İlişki" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Ad_Soyad, Kitap_Adı, Özet FROM İlişki</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Ad_Soyad" DataSetColumn="Ad_Soyad" />
+              <Mapping SourceColumn="Kitap_Adı" DataSetColumn="Kitap_Adı" />
+              <Mapping SourceColumn="Özet" DataSetColumn="Özet" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_1234DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_1234DataSet3" msprop:Generator_UserDSName="_1234DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="İlişki" msprop:Generator_TableClassName="İlişkiDataTable" msprop:Generator_TableVarName="tableİlişki" msprop:Generator_TablePropName="İlişki" msprop:Generator_RowDeletingName="İlişkiRowDeleting" msprop:Generator_UserTableName="İlişki" msprop:Generator_RowChangingName="İlişkiRowChanging" msprop:Generator_RowEvHandlerName="İlişkiRowChangeEventHandler" msprop:Generator_RowDeletedName="İlişkiRowDeleted" msprop:Generator_RowEvArgName="İlişkiRowChangeEvent" msprop:Generator_RowChangedName="İlişkiRowChanged" msprop:Generator_RowClassName="İlişkiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ad_Soyad" msprop:Generator_ColumnVarNameInTable="columnAd_Soyad" msprop:Generator_ColumnPropNameInRow="Ad_Soyad" msprop:Generator_ColumnPropNameInTable="Ad_SoyadColumn" msprop:Generator_UserColumnName="Ad_Soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Kitap_Adı" msprop:Generator_ColumnVarNameInTable="columnKitap_Adı" msprop:Generator_ColumnPropNameInRow="Kitap_Adı" msprop:Generator_ColumnPropNameInTable="Kitap_AdıColumn" msprop:Generator_UserColumnName="Kitap_Adı" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Özet" msprop:Generator_ColumnVarNameInTable="columnÖzet" msprop:Generator_ColumnPropNameInRow="Özet" msprop:Generator_ColumnPropNameInTable="ÖzetColumn" msprop:Generator_UserColumnName="Özet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

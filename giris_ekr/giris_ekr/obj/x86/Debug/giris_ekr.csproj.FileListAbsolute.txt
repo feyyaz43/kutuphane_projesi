@@ -1,0 +1,61 @@
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\bin\Debug\giris_ekr.pdb
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Form1.resources
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Properties.Resources.resources
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+c:\users\ff\documents\visual studio 2010\Projects\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+D:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+D:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+D:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe
+D:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.pdb
+D:\giris_ekr\giris_ekr\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Form1.resources
+D:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Properties.Resources.resources
+D:\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\giris_ekr\giris_ekr\bin\Debug\Veritabanı1.accdb
+D:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+F:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+F:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+F:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\bin\Debug\Veritabanı1.accdb
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\bin\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Form1.resources
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Properties.Resources.resources
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+H:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+H:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+H:\giris_ekr\giris_ekr\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Form1.resources
+H:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Properties.Resources.resources
+H:\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\giris_ekr\giris_ekr\bin\Debug\Veritabanı1.accdb
+H:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe
+H:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\giris_ekr\giris_ekr\bin\Debug\1234.accdb
+E:\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+E:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+E:\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe.config
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.exe
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\bin\Debug\1234.accdb
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\bin\Debug\Veritabanı1.accdb
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\bin\Debug\giris_ekr.exe
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\bin\Debug\giris_ekr.pdb
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Form1.resources
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\giris_ekr.Properties.Resources.resources
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\rame\Desktop\Yeni klasör\giris_ekr\giris_ekr\obj\x86\Debug\GenerateResource.write.1.tlog
